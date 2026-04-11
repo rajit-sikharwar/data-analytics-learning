@@ -35,3 +35,8 @@ print(arr.ndim)
 print(arr1d.ndim)
 print(arr2d.ndim)
 print(arr3d.ndim)
+
+#Higher Dimensional Arrays
+arr = np.array([1, 2, 3, 4], ndmin=5)
+print(arr)
+print('number of dimensions :', arr.ndim)
