@@ -23,3 +23,8 @@ print("\n1-D Array: \n", arr1d)
 #3. 2-D Array
 arr2d = np.array([[1,2,3], [4,5,6]])
 print("\n2-D Array: \n", arr2d)
+
+#4. 3-D Array
+arr3d = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
+print("\n3-D Array: \n", arr3d)
+print(type(arr3d))
