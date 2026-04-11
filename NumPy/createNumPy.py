@@ -40,3 +40,11 @@ print(arr3d.ndim)
 arr = np.array([1, 2, 3, 4], ndmin=5)
 print(arr)
 print('number of dimensions :', arr.ndim)
+
+#Take input
+print("\nTake Input within range")
+lt = []
+for i in range(1,5):
+    int_lt = int(input("enter :"))
+    lt.append(int_lt)
+print(np.array(lt))
