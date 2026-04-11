@@ -35,3 +35,8 @@ print(arr_diag)
 print()
 arr_diag1 = np.eye(5,5)
 print(arr_diag1)
+
+#Create an array with values that are spaced linearly in a specified interval
+#generates an array of evenly spaced numbers over a specified interval
+arr_lineSpace = np.linspace(1, 10, num=5) 
+print(arr_lineSpace)
