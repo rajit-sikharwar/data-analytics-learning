@@ -17,3 +17,7 @@ print(arr_one1)
 #Create an Empty Array: empty array filled with elements that present in previous memory
 arr_empty = np.empty(5)
 print(arr_empty)
+
+#elements within a range
+arr_range = np.arange(5)
+print(arr_range) #[0 1 2 3 4]
