@@ -13,3 +13,7 @@ print(arr_one)
 print()
 arr_one1 = np.ones((5,4)) #5-rows, 4-columns matrix with all values 1
 print(arr_one1)
+
+#Create an Empty Array: empty array filled with elements that present in previous memory
+arr_empty = np.empty(5)
+print(arr_empty)
