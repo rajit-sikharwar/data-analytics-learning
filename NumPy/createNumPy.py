@@ -28,3 +28,10 @@ print("\n2-D Array: \n", arr2d)
 arr3d = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]]])
 print("\n3-D Array: \n", arr3d)
 print(type(arr3d))
+
+#Check number of Dimensions
+print("\nThe Dimensions Of Arrays Are:")
+print(arr.ndim)
+print(arr1d.ndim)
+print(arr2d.ndim)
+print(arr3d.ndim)
