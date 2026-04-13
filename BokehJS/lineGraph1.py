@@ -9,7 +9,7 @@ x = [1, 2, 3, 4, 5]
 y = [5, 4, 3, 2, 1] 
 
 graph.line(x, y) 
-show(graph)
+# show(graph)
 
 #2. Legend Implementation
 # plotting the 1st line graph
@@ -17,4 +17,10 @@ graph.line(x, x, legend_label="Line 1", line_color="green")
 
 # plotting the 2nd line graph with a different color
 graph.line(y, x, legend_label="Line 2", line_color="blue")
+# show(graph)
+
+#3. Legend Properties
+graph.legend.title = "Title of the legend"
+graph.legend.location ="top_left"
+graph.legend.label_text_font_size = "15pt"
 show(graph)
