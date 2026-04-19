@@ -44,3 +44,7 @@ print("Object:", arr_object, arr_object.dtype)
 # 10. String (S → bytes)
 arr_string = np.array(['apple', 'banana'], dtype='S')
 print("String (bytes):", arr_string, arr_string.dtype)
+
+# 11. Unicode String (U)
+arr_unicode = np.array(['apple', 'banana'], dtype='U')
+print("Unicode:", arr_unicode, arr_unicode.dtype)
