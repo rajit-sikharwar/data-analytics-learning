@@ -32,3 +32,7 @@ print("Complex:", arr_complex, arr_complex.dtype)
 # 7. Timedelta (m)
 arr_timedelta = np.array([5, 10, 15], dtype='m8[D]')
 print("Timedelta:", arr_timedelta, arr_timedelta.dtype)
+
+# 8. Datetime (M)
+arr_datetime = np.array(['2024-01-01', '2025-05-10'], dtype='M8[D]')
+print("Datetime:", arr_datetime, arr_datetime.dtype)
