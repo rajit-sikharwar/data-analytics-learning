@@ -24,3 +24,7 @@ print("Unsigned Integer:", arr_uint, arr_uint.dtype)
 # 5. Float (f)
 arr_float = np.array([1.5, 2.7, 3.9], dtype='f')
 print("Float:", arr_float, arr_float.dtype)
+
+# 6. Complex Float (c)
+arr_complex = np.array([1+2j, 3+4j], dtype='c')
+print("Complex:", arr_complex, arr_complex.dtype)
