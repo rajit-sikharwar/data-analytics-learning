@@ -48,3 +48,7 @@ print("String (bytes):", arr_string, arr_string.dtype)
 # 11. Unicode String (U)
 arr_unicode = np.array(['apple', 'banana'], dtype='U')
 print("Unicode:", arr_unicode, arr_unicode.dtype)
+
+# 12. Void / Fixed Memory (V)
+arr_void = np.array([b'abcd', b'efgh'], dtype='V4')
+print("Void:", arr_void, arr_void.dtype)
