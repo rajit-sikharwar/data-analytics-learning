@@ -28,3 +28,7 @@ print("Float:", arr_float, arr_float.dtype)
 # 6. Complex Float (c)
 arr_complex = np.array([1+2j, 3+4j], dtype='c')
 print("Complex:", arr_complex, arr_complex.dtype)
+
+# 7. Timedelta (m)
+arr_timedelta = np.array([5, 10, 15], dtype='m8[D]')
+print("Timedelta:", arr_timedelta, arr_timedelta.dtype)
