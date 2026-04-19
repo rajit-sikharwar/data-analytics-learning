@@ -12,3 +12,7 @@ print(arr.dtype)
 #2. Boolean (b → actually int8)
 arr_bool_int = np.array([True, False, True], dtype='b')
 print("Boolean using 'b':", arr_bool_int, arr_bool_int.dtype)
+
+# 3. Actual Boolean (?)
+arr_bool = np.array([True, False, True], dtype='?')
+print("Actual Boolean:", arr_bool, arr_bool.dtype)
