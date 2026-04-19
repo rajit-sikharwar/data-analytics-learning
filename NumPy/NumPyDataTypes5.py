@@ -16,3 +16,7 @@ print("Boolean using 'b':", arr_bool_int, arr_bool_int.dtype)
 # 3. Actual Boolean (?)
 arr_bool = np.array([True, False, True], dtype='?')
 print("Actual Boolean:", arr_bool, arr_bool.dtype)
+
+# 4. Unsigned Integer (u)
+arr_uint = np.array([1, 2, 255], dtype='u1')
+print("Unsigned Integer:", arr_uint, arr_uint.dtype)
