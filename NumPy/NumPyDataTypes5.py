@@ -40,3 +40,7 @@ print("Datetime:", arr_datetime, arr_datetime.dtype)
 # 9. Object (O)
 arr_object = np.array([1, 'hello', 3.5], dtype='O')
 print("Object:", arr_object, arr_object.dtype)
+
+# 10. String (S → bytes)
+arr_string = np.array(['apple', 'banana'], dtype='S')
+print("String (bytes):", arr_string, arr_string.dtype)
