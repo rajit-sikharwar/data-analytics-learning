@@ -20,3 +20,7 @@ print("Actual Boolean:", arr_bool, arr_bool.dtype)
 # 4. Unsigned Integer (u)
 arr_uint = np.array([1, 2, 255], dtype='u1')
 print("Unsigned Integer:", arr_uint, arr_uint.dtype)
+
+# 5. Float (f)
+arr_float = np.array([1.5, 2.7, 3.9], dtype='f')
+print("Float:", arr_float, arr_float.dtype)
