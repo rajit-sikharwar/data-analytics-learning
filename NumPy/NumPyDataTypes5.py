@@ -36,3 +36,7 @@ print("Timedelta:", arr_timedelta, arr_timedelta.dtype)
 # 8. Datetime (M)
 arr_datetime = np.array(['2024-01-01', '2025-05-10'], dtype='M8[D]')
 print("Datetime:", arr_datetime, arr_datetime.dtype)
+
+# 9. Object (O)
+arr_object = np.array([1, 'hello', 3.5], dtype='O')
+print("Object:", arr_object, arr_object.dtype)
