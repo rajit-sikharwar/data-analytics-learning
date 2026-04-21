@@ -103,3 +103,18 @@ print("13. Void (V)")
 print("Array :", arr_void)
 print("Dtype :", arr_void.dtype)
 print("-------------------------------------")
+
+
+print("\n========== NUMPY DATA TYPE CONVERSIONS ==========\n")
+
+#1. Integer conversions
+arr_int = np.array([1, 0, 3])
+print("Integer:", arr_int, arr_int.dtype)
+
+print("Integer to Float:", np.array(arr_int, dtype='f'))
+print("Integer to Boolean:", np.array(arr_int, dtype='?'))
+print("Integer to Complex:", np.array(arr_int, dtype='complex128'))
+print("Integer to String:", np.array(arr_int, dtype='S'))
+print("Integer to Unicode:", np.array(arr_int, dtype='U'))
+
+print("-------------------------------------")
