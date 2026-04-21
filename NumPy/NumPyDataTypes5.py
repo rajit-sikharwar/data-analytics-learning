@@ -114,7 +114,11 @@ print(newarr.dtype)
 
 
 print("\n========== NUMPY DATA TYPE CONVERSIONS ==========\n")
-# Base Array (Integer)
+#Base Array (Integer)
 arr_int = np.array([1, 0, 2, 0, 1, 3, 2, 1, 0])
 print("Original Integer:", arr_int, arr_int.dtype)
 print("-------------------------------------")
+
+#1. Integer to Float
+arr_float = arr_int.astype('f')
+print("Int to Float:", arr_float, arr_float.dtype)
