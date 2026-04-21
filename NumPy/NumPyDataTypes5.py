@@ -147,10 +147,17 @@ print("String to Complex:", np.array(arr_str, dtype='complex128'))
 
 print("-------------------------------------")
 
-# 5.Complex conversions
+#5.Complex conversions
 arr_complex = np.array([1+2j, 3+4j])
 print("Complex:", arr_complex, arr_complex.dtype)
 print("Complex to Float:", np.array(arr_complex, dtype='f'))   #imaginary part removed
 print("Complex to Integer:", np.array(arr_complex, dtype='i')) #more data loss
+
+print("-------------------------------------")
+
+#6.Datetime conversions
+arr_date = np.array(['2024-01-01', '2025-01-01'], dtype='M8[D]')
+print("Datetime:", arr_date, arr_date.dtype)
+print("Datetime to Integer:", np.array(arr_date, dtype='i'))
 
 print("-------------------------------------")
