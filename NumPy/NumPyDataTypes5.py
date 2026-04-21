@@ -123,7 +123,7 @@ print("-------------------------------------")
 arr_float = np.array([1.7, 2.9, 3.1])
 print("Float:", arr_float, arr_float.dtype)
 
-print("Float to Integer:", np.array(arr_float, dtype='i'))   # decimal removed
+print("Float to Integer:", np.array(arr_float, dtype='i'))   #decimal removed
 print("Float to Boolean:", np.array(arr_float, dtype='?'))
 print("Float to Complex:", np.array(arr_float, dtype='complex128'))
 
@@ -135,5 +135,14 @@ print("Boolean:", arr_bool, arr_bool.dtype)
 print("Boolean to Integer:", np.array(arr_bool, dtype='i'))
 print("Boolean to Float:", np.array(arr_bool, dtype='f'))
 print("Boolean to Complex:", np.array(arr_bool, dtype='complex128'))
+
+print("-------------------------------------")
+
+#4.String conversions
+arr_str = np.array(['1', '2', '3'])
+print("String:", arr_str, arr_str.dtype)
+print("String to Integer:", np.array(arr_str, dtype='i'))
+print("String to Float:", np.array(arr_str, dtype='f'))
+print("String to Complex:", np.array(arr_str, dtype='complex128'))
 
 print("-------------------------------------")
