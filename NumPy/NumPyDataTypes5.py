@@ -146,3 +146,11 @@ print("String to Float:", np.array(arr_str, dtype='f'))
 print("String to Complex:", np.array(arr_str, dtype='complex128'))
 
 print("-------------------------------------")
+
+# 5.Complex conversions
+arr_complex = np.array([1+2j, 3+4j])
+print("Complex:", arr_complex, arr_complex.dtype)
+print("Complex to Float:", np.array(arr_complex, dtype='f'))   #imaginary part removed
+print("Complex to Integer:", np.array(arr_complex, dtype='i')) #more data loss
+
+print("-------------------------------------")
