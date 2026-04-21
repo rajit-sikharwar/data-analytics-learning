@@ -161,3 +161,9 @@ print("Datetime:", arr_date, arr_date.dtype)
 print("Datetime to Integer:", np.array(arr_date, dtype='i'))
 
 print("-------------------------------------")
+
+#7.Timedelta conversions
+arr_time = np.array([5, 10], dtype='m8[D]')
+print("Timedelta:", arr_time, arr_time.dtype)
+print("Timedelta to Integer:", np.array(arr_time, dtype='i'))
+print("-------------------------------------")
