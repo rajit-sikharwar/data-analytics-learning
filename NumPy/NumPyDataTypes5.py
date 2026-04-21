@@ -119,6 +119,10 @@ arr_int = np.array([1, 0, 2, 0, 1, 3, 2, 1, 0])
 print("Original Integer:", arr_int, arr_int.dtype)
 print("-------------------------------------")
 
-#1. Integer to Float
+#1.Integer to Float
 arr_float = arr_int.astype('f')
 print("Int to Float:", arr_float, arr_float.dtype)
+
+#2.Integer to Boolean
+arr_bool = arr_int.astype('?')
+print("Integer to Bool:", arr_bool, arr_bool.dtype)
