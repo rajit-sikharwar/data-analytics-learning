@@ -104,3 +104,17 @@ print("13. Void (V)")
 print("Array :", arr_void)
 print("Dtype :", arr_void.dtype)
 print("-------------------------------------")
+
+
+#Converting Data Type on Existing Arrays
+arr = np.array([1.1, 2.1, 3.1, 4.1, 5.1])
+newarr = arr.astype('i')
+print(newarr)
+print(newarr.dtype)
+
+
+print("\n========== NUMPY DATA TYPE CONVERSIONS ==========\n")
+# Base Array (Integer)
+arr_int = np.array([1, 0, 2, 0, 1, 3, 2, 1, 0])
+print("Original Integer:", arr_int, arr_int.dtype)
+print("-------------------------------------")
