@@ -172,7 +172,7 @@ import numpy as np
 
 print("\n========== NUMPY DATA TYPE CONVERSIONS USING astype() ==========\n")
 
-#1. Integer conversions
+#1.Integer conversions
 arr_int = np.array([1, 0, 3])
 print("Integer:", arr_int, arr_int.dtype)
 
@@ -194,7 +194,7 @@ print("Float to Complex:", arr_float.astype('complex128'))
 
 print("-------------------------------------")
 
-# 3. Boolean conversions
+#3.Boolean conversions
 arr_bool = np.array([True, False, True])
 print("Boolean:", arr_bool, arr_bool.dtype)
 
@@ -204,12 +204,21 @@ print("Boolean to Complex:", arr_bool.astype('complex128'))
 
 print("-------------------------------------")
 
-# 4. String conversions
+#4.String conversions
 arr_str = np.array(['1', '2', '3'])
 print("String:", arr_str, arr_str.dtype)
 
 print("String to Integer:", arr_str.astype('i'))
 print("String to Float:", arr_str.astype('f'))
 print("String to Complex:", arr_str.astype('complex128'))
+
+print("-------------------------------------")
+
+#5.Complex conversions
+arr_complex = np.array([1+2j, 3+4j])
+print("Complex:", arr_complex, arr_complex.dtype)
+
+print("Complex to Float:", arr_complex.astype('f'))   # imaginary part removed
+print("Complex to Integer:", arr_complex.astype('i')) # more data loss
 
 print("-------------------------------------")
