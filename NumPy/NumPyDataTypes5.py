@@ -183,3 +183,13 @@ print("Integer to String:", arr_int.astype('S'))
 print("Integer to Unicode:", arr_int.astype('U'))
 
 print("-------------------------------------")
+
+#2.Float conversions
+arr_float = np.array([1.7, 2.9, 3.1])
+print("Float:", arr_float, arr_float.dtype)
+
+print("Float to Integer:", arr_float.astype('i'))   # decimal removed
+print("Float to Boolean:", arr_float.astype('?'))
+print("Float to Complex:", arr_float.astype('complex128'))
+
+print("-------------------------------------")
