@@ -167,3 +167,19 @@ arr_time = np.array([5, 10], dtype='m8[D]')
 print("Timedelta:", arr_time, arr_time.dtype)
 print("Timedelta to Integer:", np.array(arr_time, dtype='i'))
 print("-------------------------------------")
+
+import numpy as np
+
+print("\n========== NUMPY DATA TYPE CONVERSIONS USING astype() ==========\n")
+
+#1. Integer conversions
+arr_int = np.array([1, 0, 3])
+print("Integer:", arr_int, arr_int.dtype)
+
+print("Integer to Float:", arr_int.astype('f'))
+print("Integer to Boolean:", arr_int.astype('?'))
+print("Integer to Complex:", arr_int.astype('complex128'))
+print("Integer to String:", arr_int.astype('S'))
+print("Integer to Unicode:", arr_int.astype('U'))
+
+print("-------------------------------------")
