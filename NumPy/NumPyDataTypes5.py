@@ -222,3 +222,10 @@ print("Complex to Float:", arr_complex.astype('f'))   # imaginary part removed
 print("Complex to Integer:", arr_complex.astype('i')) # more data loss
 
 print("-------------------------------------")
+
+#6.Datetime conversions
+arr_date = np.array(['2024-01-01', '2025-01-01'], dtype='M8[D]')
+print("Datetime:", arr_date, arr_date.dtype)
+print("Datetime to Integer:", arr_date.astype('i'))
+
+print("-------------------------------------")
