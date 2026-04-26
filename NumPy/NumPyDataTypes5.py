@@ -203,3 +203,13 @@ print("Boolean to Float:", arr_bool.astype('f'))
 print("Boolean to Complex:", arr_bool.astype('complex128'))
 
 print("-------------------------------------")
+
+# 4. String conversions
+arr_str = np.array(['1', '2', '3'])
+print("String:", arr_str, arr_str.dtype)
+
+print("String to Integer:", arr_str.astype('i'))
+print("String to Float:", arr_str.astype('f'))
+print("String to Complex:", arr_str.astype('complex128'))
+
+print("-------------------------------------")
