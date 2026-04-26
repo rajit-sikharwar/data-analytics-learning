@@ -193,3 +193,13 @@ print("Float to Boolean:", arr_float.astype('?'))
 print("Float to Complex:", arr_float.astype('complex128'))
 
 print("-------------------------------------")
+
+# 3. Boolean conversions
+arr_bool = np.array([True, False, True])
+print("Boolean:", arr_bool, arr_bool.dtype)
+
+print("Boolean to Integer:", arr_bool.astype('i'))
+print("Boolean to Float:", arr_bool.astype('f'))
+print("Boolean to Complex:", arr_bool.astype('complex128'))
+
+print("-------------------------------------")
