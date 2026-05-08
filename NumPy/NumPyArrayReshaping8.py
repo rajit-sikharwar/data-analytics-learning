@@ -23,3 +23,10 @@ arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 newarr = arr.reshape(2, 2, -1)
 print(newarr)
 print("=====================")
+
+# Flattening array means converting a multidimensional array into a 1D array.
+# We can use reshape(-1) to do this.
+# Convert the array into a 1D array:
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+newarr = arr.reshape(-1)
+print(newarr)
