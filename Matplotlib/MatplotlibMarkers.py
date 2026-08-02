@@ -1,15 +1,14 @@
 import matplotlib.pyplot as plt
 x = [3, 8, 1, 10]
 # plt.plot(x, marker = '+')
-plt.plot(x, 'o:m') # marker|line|color
+plt.plot(x, 'o-.c', ms = 20) #fmt format= marker|line|color('o-.c')
 plt.show()
 
 
 
 
 
-'''
-
+'''1. Marker Reference
 'o'	Circle	
 '*'	Star	
 '.'	Point	
@@ -34,5 +33,12 @@ plt.show()
 '4'	Tri Right	
 '|'	Vline	
 '_'	Hline
+'''
 
+
+''' 2. Line References
+'-'	    Solid line	
+':'	    Dotted line	
+'--'	Dashed line	
+'-.'	Dashed/dotted line
 '''
