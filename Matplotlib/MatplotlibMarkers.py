@@ -1,13 +1,23 @@
 import matplotlib.pyplot as plt
-x = [3, 8, 1, 10]
-# plt.plot(x, marker = '+')
-plt.plot(x,
-         'o-.c', #fmt format= marker|line|color('o-.c')
-         markersize = 20,
-         linewidth = 3,
-         markeredgecolor = 'r',
-         markerfacecolor = 'g',
-         )
+x = [5, 8, 1, 10]
+y = [8, 6, 1, 12]
+
+plt.plot(
+    x,
+    "o:r",
+    markersize=20,
+    linewidth=3,
+    markeredgecolor="r",
+    markerfacecolor="g",
+)
+plt.plot(
+    y,
+    "o:r",
+    markersize=15,
+    linewidth=5,
+    markeredgecolor="b",
+    markerfacecolor="g",
+)
 plt.show()
 
 
