@@ -1,7 +1,13 @@
 import matplotlib.pyplot as plt
 x = [3, 8, 1, 10]
 # plt.plot(x, marker = '+')
-plt.plot(x, 'o-.c', ms = 20) #fmt format= marker|line|color('o-.c')
+plt.plot(x,
+         'o-.c', #fmt format= marker|line|color('o-.c')
+         markersize = 20,
+         linewidth = 3,
+         markeredgecolor = 'r',
+         markerfacecolor = 'g',
+         )
 plt.show()
 
 
