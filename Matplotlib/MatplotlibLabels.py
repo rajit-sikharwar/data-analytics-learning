@@ -24,5 +24,4 @@ plt.title("Impact of Study Hours on Test Scores",
 plt.xlabel("Hours Spent Studying", fontsize=12, fontdict = font2)
 plt.ylabel("Test Score (%)", fontsize=12)
 plt.legend(loc="upper left")
-plt.grid(True, linestyle="--", alpha=0.6)
 plt.show()
