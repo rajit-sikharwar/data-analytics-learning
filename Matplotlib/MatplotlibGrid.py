@@ -19,5 +19,11 @@ plt.title("Impact of Study Hours on Test Scores",
 plt.xlabel("Hours Spent Studying", fontsize=12)
 plt.ylabel("Test Score (%)", fontsize=12)
 plt.legend(loc="upper left")
-plt.grid(True, linestyle="--", alpha=0.6) #Grid lines added to the plot for better readability
+plt.grid(True,
+         axis = 'x', 
+         # axis = 'y',
+         color = 'gray',
+         linestyle="--",
+         alpha=1,
+         ) #Grid lines added to the plot for better readability
 plt.show()
